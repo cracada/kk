@@ -1,0 +1,98 @@
+cleartype,cttune,ClearType
+wifi,start ms-settings:network-wifi,Wi-Fi
+wlan,start ms-settings:network-wifi,Wi-Fi
+aq,start ms-settings:windowsdefender,安全中心
+ver,winver,版本
+bfhy,sdclt,备份还原
+bdaq,secpol.msc,本地安全策略
+secpol,secpol.msc,本地安全策略
+bdyh,lusrmgr.msc,本地用户
+users,lusrmgr.msc,本地用户
+cp,diskmgmt.msc,磁盘管理
+cc,start ms-settings:storagesense,存储
+dyj,start ms-settings:printers,打印机
+dc,start ms-settings:batterysaver,电池
+dy,control.exe powercfg.cpl,电源
+power,control.exe powercfg.cpl,电源
+drw,start ms-settings:multitasking,多任务
+fhq,control.exe firewall.cpl,防火墙
+firewall,control.exe firewall.cpl,防火墙
+fwwl,start ms-settings:network-cellular,蜂窝网络
+fw,services.msc,服务
+fzgj,utilman,辅助工具
+gjfhq,wf.msc,高级防火墙
+bj,start ms-settings:personalization-background,个性化背景
+gxh,start ms-settings:personalization-background,个性化
+gx,start ms-settings:windowsupdate,更新
+share,fsmgmt.msc,共享目录
+gy,start ms-settings:about,关于
+glgj,control.exe admintools,管理工具
+jhrw,taskschd.msc,计划任务
+rw,taskschd.msc,计划任务
+gl,compmgmt.msc,计算机管理
+jsj,compmgmt.msc,计算机管理
+jp,control.exe keyboard,键盘
+jt,snippingtool,截图
+ks,start ms-settings:personalization-start,开始
+kscd,start ms-settings:personalization-start-places,开始菜单
+kxgn,start ms-settings:optionalfeatures,可选功能
+kzmb,control.exe panel,控制面板
+ly,start ms-settings:bluetooth,蓝牙
+mr,start ms-settings:defaultapps,默认应用程序
+ml,control.exe folders,目录属性
+py,start ms-settings:regionlanguage-chsime-pinyin,拼音输入法
+srf,start ms-settings:regionlanguage-chsime-pinyin,拼音输入法
+pb,start ms-settings:tabletmode,平板模式
+fbl,start ms-settings:display,屏幕
+pm,start ms-settings:display,屏幕
+osk,osk,屏幕键盘
+pmjp,osk,屏幕键盘
+qd,start ms-settings:startupapps,启动
+qy,start ms-settings:regionformatting,区域
+rwl,start ms-settings:taskbar,任务栏
+rq,start ms-settings:dateandtime,日期
+sb,control.exe hdwwiz.cpl,设备管理器
+sound,start ms-settings:sound,声音
+sy,start ms-settings:sound,声音
+sj,eventvwr,事件查看器
+sr,control.exe  input.dll,输入
+yy,control.exe  input.dll,输入
+srsb,start ms-settings:typing,输入设备
+mouse,start ms-settings:mousetouchpad,鼠标
+shubiao,start ms-settings:mousetouchpad,鼠标
+flushdns,ipconfig /flushdns,刷新DNS缓存
+cpyh,dfrgui,碎片整理
+spzl,dfrgui,碎片整理
+sp,start ms-settings:lockscreen,锁屏
+tz,start ms-settings:notifications,通知
+ty,displayswitch,投影
+wl,start ms-settings:network-status,网络
+net,control.exe ncpa.cpl,网络网卡属性
+jh,start ms-settings:activation,系统激活
+xtjh,start ms-settings:activation,系统激活
+xt,control.exe sysdm.cpl,系统属性
+xx,control.exe wscui.cpl,消息
+xn,perfmon,性能监视器
+xm,start ms-settings:powersleep,休眠
+color,start ms-settings:colors,颜色
+ys,start ms-settings:colors,颜色
+ysgl,colorcpl,颜色管理
+ysjz,dccw,颜色校准
+ydzx,mblctr,移动中心
+lan,start ms-settings:network-ethernet,以太网
+cx,start ms-settings:appsfeatures,应用程序
+xz,start control.exe appwiz.cpl,应用程序
+yh,control.exe userpasswords,用户
+user,netplwiz,用户2密码
+yc,start ms-settings:remotedesktop,远程
+zh,start ms-settings:yourinfo,账户信息
+theme,start ms-settings:themes,主题
+zt,start ms-settings:themes,主题
+zy,resmon,资源监视器
+autoplay,start ms-settings:autoplay,自动播放
+fonts,start ms-settings:fonts,字体
+ziti,start ms-settings:fonts,字体
+zcl,gpedit.msc,组策略
+startup,start shell:startup,自启动文件夹
+appdata,start shell:appdata,当前用户roaming文件夹
+profile,start shell:Profile,当前用户profile文件夹
