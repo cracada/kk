@@ -259,25 +259,7 @@ Func_reload()
 }
 
 ;--------------------------------------------------------------------
-; Special hotkeys
-PrintScreen::Send "#^!p"
-
-; For zmt editor
-#HotIf WinActive("ahk_exe chrome.exe")
-LWin & `::
-{
-    KeyWait "F1"
-    Send "^v"
-    Sleep 100
-    Send "^``"
-    Sleep 100
-    Send "^1"
-    Sleep 100
-}
-LWin & F4::Run "D:\APPS\ShortCut\zmt.cmd Hide"
-#HotIf
-
-; Ctrl+Alt+G save to desktop
+; Ctrl+Alt+G save to desktop (Listary Ctrl+G)
 ^!g:: JumpToPath(A_Desktop)
 JumpToPath(p) {
     if WinActive("ahk_class #32770") {
@@ -320,7 +302,9 @@ HelpText := (
 "CapsLock + Direction          | Mouse Move                          `n"      
 "CapsLock + PgUp/PgDn          | Mouse Click                         `n"
 "CaspLock + 1234567890-=       | Shifter as Shift                    `n"
-"Lwin+F1F2F3 Ctrl+Alt+G        | Special Hot Keys                    `n"
+;"Lwin+F1F2F3 Ctrl+Alt+G        | Special Hot Keys            ;       `n"
 "--------------------------------------------------------------------`n"
 "Use it whatever and wherever U like. Hope it help                   `n"
 )
+
+#Include "*i ..\..\my.ahk"
