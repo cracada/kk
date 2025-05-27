@@ -20,7 +20,7 @@ if (!A_IsAdmin)
     }
     ExitApp
 }
-;/*
+;* /
 ;--------------------------------------------------------------------
 A_TrayMenu.Delete()  
 A_TrayMenu.Add("重启", (*) => Reload())
@@ -104,7 +104,7 @@ CapsLock & a::Send "^a"
 CapsLock & s::Send "^s"
 CapsLock & d::Send "!d"
 CapsLock & f::Send "^f"
-CapsLock & g::Send "^!g"
+CapsLock & g::Send "#^+g"
 CapsLock & h::Send "^h"
 CapsLock & j::Func_nav("Left")
 CapsLock & k::Func_nav("Down")
@@ -264,18 +264,17 @@ PrintScreen::Send "#^!p"
 
 ; For zmt editor
 #HotIf WinActive("ahk_exe chrome.exe")
-LWin & F1::
+LWin & `::
 {
     KeyWait "F1"
     Send "^v"
     Sleep 100
     Send "^``"
     Sleep 100
-    Send "!1"
+    Send "^1"
     Sleep 100
 }
-LWin & F2::Send "{Enter}"
-LWin & F3::Run "D:\APPS\ShortCut\zmt.cmd Hide"
+LWin & F4::Run "D:\APPS\ShortCut\zmt.cmd Hide"
 #HotIf
 
 ; Ctrl+Alt+G save to desktop
@@ -293,10 +292,13 @@ CapsLock & F1::ShowTextWindow("Help",HelpText)
 ShowTextWindow(title,text) {
     MyGui := Gui(, title)
     MyGui.BackColor := "EEEEEE"  
-    
+    MyGui.Margin := "20 20"  
     MyGui.SetFont("s12 Bold", "Courier New")
     MyGui.Opt("+Theme")
     txt := MyGui.Add("Text", "w660", text)
+    MyGui.Add("Text", "xs") 
+    btn := MyGui.Add("Button", "Default Center w680", "确定")
+    btn.OnEvent("Click", (*) => MyGui.Destroy())    
     MyGui.OnEvent("Escape", (*) => MyGui.Destroy())
     MyGui.Show("Center")
     }
@@ -320,5 +322,5 @@ HelpText := (
 "CaspLock + 1234567890-=       | Shifter as Shift                    `n"
 "Lwin+F1F2F3 Ctrl+Alt+G        | Special Hot Keys                    `n"
 "--------------------------------------------------------------------`n"
-"Use it whatever and wherever U like. Hope it help                   `n`n"
+"Use it whatever and wherever U like. Hope it help                   `n"
 )
