@@ -1,7 +1,7 @@
 # Via Browser  
 
 
-## 广告
+### 广告
 <details>
   <summary> 展开 </summary>  
   
@@ -34,7 +34,7 @@
     ```
 </details>
 
-## 脚本
+### 脚本
  <details>
   <summary> 辅助功能 </summary>  
   
@@ -63,7 +63,7 @@
 
 </details>
 
-## UA
+### UA
 <details>
   <summary> 展开 </summary>  
   
@@ -92,7 +92,7 @@ Mozilla/5.0 (Linux; U; Android 14; zh-cn; 22081212C Build/UKQ1.230917.001) Apple
 
 </details>
 
-## 搜索
+### 搜索
 <details>
   <summary> 展开 </summary>  
   
@@ -133,7 +133,7 @@ https://www.n.cn/?q=
 </details>
 
 
-## 更多：
+### 更多：
 <details>  
 
 
