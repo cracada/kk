@@ -1,5 +1,6 @@
 ### 运行库合集
-[华军下载](https://www.onlinedown.net/search?searchname=%E5%BE%AE%E8%BD%AF%E5%B8%B8%E7%94%A8%E8%BF%90%E8%A1%8C%E5%BA%93&button=%E6%90%9C%E7%B4%A2)
+[Sear](https://searx.si/search?q=%E5%BE%AE%E8%BD%AF%E5%B8%B8%E7%94%A8%E8%BF%90%E8%A1%8C%E5%BA%93%E5%90%88%E9%9B%86%20dreamcast)  [OceanHero](https://oceanhero.today/web?q=%E5%BE%AE%E8%BD%AF%E5%B8%B8%E7%94%A8%E8%BF%90%E8%A1%8C%E5%BA%93%E5%90%88%E9%9B%86%20dreamcast)  [Bing](https://cn.bing.com/search?q=%E5%BE%AE%E8%BD%AF%E5%B8%B8%E7%94%A8%E8%BF%90%E8%A1%8C%E5%BA%93%E5%90%88%E9%9B%86%20dreamcast)
+
 
 ### Mas系统激活
 
