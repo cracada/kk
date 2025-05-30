@@ -8,6 +8,8 @@ IF "%1"=="control" GOTO :control
 IF "%1"=="set" GOTO :set
 IF "%1"=="shell" GOTO :shell
 
+GOTO :EOF
+
 :cmd
 start "" "cmd" /k %command%
 goto :end

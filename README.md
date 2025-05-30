@@ -1,7 +1,1 @@
-# kk Scripts
-
-kkCapslock  
-
-QuickRun  
-
-cmdRunner  
+# 脚本、设置、备忘
