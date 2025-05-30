@@ -50,7 +50,7 @@ PS:也可以把bat放到系统的PATH里，然后通过Win+R随时调用
 
 set arg：代替 mssettings:arg  [1](https://learn.microsoft.com/en-us/windows/apps/develop/launch/launch-settings-app) [2](https://ss64.com/nt/syntax-settings.html)
 
-control arg: 代替control.exe arg [1](https://en.wikipedia.org/wiki/Control_Panel_(Windows)
+control arg: 代替control.exe arg [1](https://en.wikipedia.org/wiki/Control_Panel_(Windows))
 
 shell arg: 代替shell arg [1](https://ss64.com/nt/shell.html)
 
