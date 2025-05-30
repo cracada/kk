@@ -1,5 +1,8 @@
-### 运行库合集
+### 运行库合集与Dorectx修复工具
 [Sear](https://searx.si/search?q=%E5%BE%AE%E8%BD%AF%E5%B8%B8%E7%94%A8%E8%BF%90%E8%A1%8C%E5%BA%93%E5%90%88%E9%9B%86%20dreamcast)  [OceanHero](https://oceanhero.today/web?q=%E5%BE%AE%E8%BD%AF%E5%B8%B8%E7%94%A8%E8%BF%90%E8%A1%8C%E5%BA%93%E5%90%88%E9%9B%86%20dreamcast)  [Bing](https://cn.bing.com/search?q=%E5%BE%AE%E8%BD%AF%E5%B8%B8%E7%94%A8%E8%BF%90%E8%A1%8C%E5%BA%93%E5%90%88%E9%9B%86%20dreamcast)
+
+
+[DirectX修复工具](https://www.zysoftware.top/post/9.html)
 
 
 ### Mas系统激活
