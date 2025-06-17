@@ -309,4 +309,4 @@ HelpText := (
 "Use it whatever and wherever U like. Hope it help                   `n"
 )
 
-#Include "*i ..\..\my.ahk"
+#Include "*i my.ahk"
