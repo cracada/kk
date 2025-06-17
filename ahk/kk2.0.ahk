@@ -58,6 +58,7 @@ CapsLock & F5::Func_reload()
 ;--------------------------------------------------------------------
 ; Shift modifiers
 CapsLock & `::Send "+``"
+;CapsLock & `::Send "^+!v"
 CapsLock & 1::Send "+1"
 CapsLock & 2::Send "+2"
 CapsLock & 3::Send "+3"
@@ -89,7 +90,8 @@ CapsLock & q::Send "!{F4}"
 CapsLock & w::Send "^w"
 CapsLock & e::Send "#^!e"
 CapsLock & r::Send "!r"
-CapsLock & t::Send "^t"
+;CapsLock & t::Send "^t"
+CapsLock & t::Send "#^!t"
 CapsLock & y::Send "^y"
 CapsLock & u::Func_nav("Home")
 CapsLock & i::Func_nav("Up")
@@ -259,8 +261,8 @@ Func_reload()
 }
 
 ;--------------------------------------------------------------------
-; Ctrl+Alt+G save to desktop (Listary Ctrl+G)
-^!g:: JumpToPath(A_Desktop)
+; Ctrl+Shift+G save to desktop (Listary Ctrl+G)
+^+g:: JumpToPath(A_Desktop)
 JumpToPath(p) {
     if WinActive("ahk_class #32770") {
         Send "!d"

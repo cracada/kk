@@ -1,0 +1,4 @@
+https://www.microsoft.com/zh-cn/download/details.aspx?id=10019
+
+32位系统：regsvr32 C:\Windows\System32\MSCOMCTL.OCX
+64位系统：regsvr32 C:\Windows\SysWOW64\MSCOMCTL.OCX
