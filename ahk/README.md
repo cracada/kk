@@ -1,1 +1,1 @@
-![键位](scripts/keyboard/kb.png)
+![键位](kk.png)
