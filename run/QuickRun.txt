@@ -93,6 +93,7 @@ autoplay,start ms-settings:autoplay,自动播放
 fonts,start ms-settings:fonts,字体
 ziti,start ms-settings:fonts,字体
 zcl,gpedit.msc,组策略
+downloads,start shell:downloads,下载文件夹
 startup,start shell:startup,自启动文件夹
 appdata,start shell:appdata,当前用户roaming文件夹
 profile,start shell:Profile,当前用户profile文件夹
