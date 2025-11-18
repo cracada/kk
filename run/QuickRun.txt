@@ -66,8 +66,8 @@ spzl,dfrgui,碎片整理
 sp,start ms-settings:lockscreen,锁屏
 tz,start ms-settings:notifications,通知
 ty,displayswitch,投影
-wl,start ms-settings:network-status,网络
-net,control.exe ncpa.cpl,网络网卡属性
+net,start ms-settings:network-status,网络
+wl,control.exe ncpa.cpl,网络网卡属性
 jh,start ms-settings:activation,系统激活
 xtjh,start ms-settings:activation,系统激活
 xt,control.exe sysdm.cpl,系统属性
